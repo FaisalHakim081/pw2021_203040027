@@ -1,4 +1,15 @@
 <?php
+/*
+Faisal Ibnul Hakim
+203040027
+https://github.com/FaisalHakim081/pw2021_203040027
+Pertemuan 6 - 4 Maret 2021
+Associative Array
+*/
+?>
+
+
+<?php
 // $mahasiswa = [
 //     ["Faisal","203040027","Teknik Informatika","faisalhakim081@gmail.com"],
 //     ["Ibnul","192040028","Teknik Komunikasi","fiuls@yahoo.id"],
