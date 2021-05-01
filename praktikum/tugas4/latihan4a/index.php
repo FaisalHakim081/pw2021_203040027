@@ -46,7 +46,7 @@ $result = mysqli_query($conn, "SELECT * FROM gaminggear");
                     <td class="table-success"><?= $gr["nama"]; ?></td>
                     <td><?= $gr["deskripsi"]; ?></td>
                     <td class="table-success"><?= $gr["harga"]; ?></td>
-                    <td id="type"><span><?= $gr["type"]; ?></span></td>
+                    <td id="type"><span><?= $gr["tipe"]; ?></span></td>
                 </tr>
                 <?php $i++; ?>
             <?php endwhile; ?>
