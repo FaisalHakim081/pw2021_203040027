@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 30, 2021 at 01:14 AM
+-- Generation Time: May 13, 2021 at 05:08 PM
 -- Server version: 10.4.14-MariaDB
 -- PHP Version: 7.4.11
 
@@ -71,7 +71,8 @@ CREATE TABLE `user` (
 
 INSERT INTO `user` (`id`, `username`, `password`) VALUES
 (3, 'pw', '$2y$10$siqyGQwSYOQ66QVIlo6Woew0F5le65WuAc6XdXZb0vE/RbqQqA5y6'),
-(4, 'admin', '$2y$10$NjUMSiWNZAsMWYwDNNaLQ.Mob1qskmp2f3oo75ZXRnCbnMNHKiL2m');
+(4, 'admin', '$2y$10$NjUMSiWNZAsMWYwDNNaLQ.Mob1qskmp2f3oo75ZXRnCbnMNHKiL2m'),
+(5, 'sa', '$2y$10$tVc6Rc44AXtVXBRl06FLG.wMPWKZ1hGx5LYJCkw96tRm5pp1XgJ0y');
 
 --
 -- Indexes for dumped tables
@@ -97,13 +98,13 @@ ALTER TABLE `user`
 -- AUTO_INCREMENT for table `figure`
 --
 ALTER TABLE `figure`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
 
 --
 -- AUTO_INCREMENT for table `user`
 --
 ALTER TABLE `user`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
