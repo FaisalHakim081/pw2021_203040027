@@ -4,8 +4,8 @@
 Faisal Ibnul Hakim
 203040027
 https://github.com/FaisalHakim081/pw2021_203040027
-Pertemuan 10 - 29 April 2021
-Koneksi DB & Insert Data
+Pertemuan 13 - 10 mei 2021
+Live Searching & Upload Gambar
 */
 
 session_start();
