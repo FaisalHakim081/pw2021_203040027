@@ -105,7 +105,7 @@ function hapus($id)
   $conn = koneksi();
   // menghapus gambar di folder img
   $fr = query("SELECT * FROM figure WHERE id = $id");
-  if ($fr['gambat'] != 'nophoto.png') {
+  if ($fr['gambar'] != 'nophoto.png') {
     unlink('img/' . $fr['gambar']);
   }
   mysqli_query($conn, "DELETE FROM figure WHERE id = $id") or die(mysqli_error($conn));
